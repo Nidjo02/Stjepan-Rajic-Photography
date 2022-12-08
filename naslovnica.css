@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f0e9 ;
+    /* color: rgb(216, 147, 53); */
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: 100;
+}
+ 
+a {
+    color: rgb(216, 147, 53); 
+    text-decoration: none;
+    font-weight: 100;
+}
+
+h2 {
+    color: rgb(216, 147, 53);
+    font-weight: 100;
+}
+p {
+    line-height: 200%;
+}
+ /* header */
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f5f0e9 ;
+    color: rgb(216, 147, 53);
+    height: 70px;
+    border-bottom: 1px solid rgb(216, 147, 53);
+}
+
+header img {
+    width: 70px;
+    float: left;
+    margin-left: 110px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+
+.naslovnica, .o-nama, .kontakt {
+    float: left;
+    font-size: larger;
+    margin-top: 25px;
+    margin-left: 90px;
+    color: rgb(216, 147, 53);
+    
+}
+
+/* header */
+
+/* content */
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f5f0e9;
+    
+}
+
+/* nav */
+
+nav {
+    width: 100%;
+    color: rgb(216, 147, 53);
+}
+
+nav a, nav p {
+    display: inline-block;
+    margin-top: 5px;
+}
+nav a {
+    margin-left: 59px;
+    margin-right: 59px;
+}
+
+/* nav */
+
+/* portret */
+
+.portreti {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.portreti article {
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+}
+
+.portreti figure {
+    width: 58%;
+    float: right;
+}
+
+.portreti figure img {
+    float: right;
+    width: 25%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#portret1 {
+    margin-right: 20px;
+}
+
+.portreti p {
+    margin-top: 20px;
+}
+
+/* portret */
+
+/*party */
+
+
+/* prosidba */
+
+.prosidba {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.prosidba figure {
+    width: 60%;
+    float: left;
+}
+
+.prosidba article {
+    width: 40%;
+    float: right;
+}
+
+.prosidba img {
+    float: left;
+    margin-top: 5px;
+}
+
+#prosidba1 {
+    width: 27%;
+    margin-left: 20px;
+}
+
+#prosidba2, #prosidba3 {
+    width: 41.5%;
+    margin-left: 10px;
+}
+
+#prosidba3 {
+    margin-top: 10px;
+}
+
+
+.prosidba p {
+    margin-top: 20px;
+}
+
+
+
+/* prosidba */
+
+/* vjencanje */
+
+.vjencanje {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.vjencanje article {
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+}
+
+.vjencanje figure {
+    width: 58%;
+    float: right;
+}
+
+.vjencanje figure img {
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#vjencanje1 {
+    width: 30%;
+    margin-right: 20px;
+}
+
+#vjencanje2, #vjencanje3 {
+    width: 46%;
+    
+}
+
+#vjencanje3 {
+    margin-top: 10px;
+}
+
+.vjencanje p {
+    margin-top: 20px;
+}
+/* vjencanje */
+
+
+/* krstenje */
+
+.krstenje {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.krstenje figure {
+    width: 58%;
+    float: left;
+    margin-left: 20px;
+}
+
+.krstenje article {
+    width: 40%;
+    float: right;
+}
+
+.krstenje img {
+    float: left;
+    margin-top: 5px;
+    width: 32%;
+    margin-right: 20px;
+}
+
+
+.krstenje p {
+    margin-top: 20px;
+}
+
+
+
+/* krstenje */
+
+/* sport */
+
+.sport {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sport article {
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+}
+
+.sport figure {
+    width: 58%;
+    float: right;
+    
+}
+
+.sport figure img {
+    float: right;
+    width: 26%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#sport1 {
+    margin-right: 20px;
+}
+
+.sport p {
+    margin-top: 20px;
+}
+
+/* sport */
+
+
+
+/* ostalo */
+
+
+
+.ostalo {
+    float: right;
+    clear: both;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.ostalo figure {
+    width: 58%;
+    float: left;
+    margin-left: 20px;
+}
+
+.ostalo article {
+    width: 40%;
+    float: right;
+    margin-right: 20px;
+}
+
+.ostalo img {
+    float: left;
+    margin-top: 5px;
+    width: 30%;
+    margin-right: 20px;
+}
+
+
+.ostalo p {
+    margin-top: 20px;
+}
+
+/* ostalo */
+
+/* tablica */
+
+table {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+table, td, th {
+    border: 1px solid rgb(216, 147, 53);
+    border-collapse: collapse;
+    
+}
+
+table td.cjenik {
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+
+table td {
+    width: 240px;    
+    text-align: center;
+}
+
+table td.prvi,  td.drugi, td.treci, td.cetvrti {
+    height: 50px;
+}
+
+/* tablica */
+
+/* content */
+
+
+
+/*footer*/
+footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: #f5f0e9 ;
+    clear: both;
+}
+
+footer p {
+    color:rgb(216, 147, 53) ;
+    text-align: center;
+    padding: 10px;
+}
+/*footer*/
+
+.clear {
+    clear: both;
+}

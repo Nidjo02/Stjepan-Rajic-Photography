@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f0e9 ;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: 100;
+}
+ 
+a {
+    color: rgb(216, 147, 53); 
+    text-decoration: none;
+    font-weight: 100;
+}
+
+h2 {
+    color: rgb(216, 147, 53);
+    font-weight: 100;
+}
+p {
+    line-height: 200%;
+}
+ /* header */
+
+header {
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #f5f0e9 ;
+    color: rgb(216, 147, 53);
+    border-bottom: 1px solid rgb(216, 147, 53);
+}
+
+header img {
+    width: 70px;
+    position: absolute;
+    left: 950px;
+    
+}
+
+header h1 {
+    font-weight: 100;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+
+.naslovnica, .o-nama, .kontakt {
+    position: absolute;
+    top: 27px;
+    font-size: larger;
+    color: rgb(216, 147, 53);
+    
+}
+
+.naslovnica {
+    left: 1100px;
+}
+
+.o-nama {
+    left: 1270px;
+}
+
+.kontakt {
+    left: 1400px;
+}
+/* header */
+
+/* stjepan */
+
+.stjepan {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+}
+
+.stjepan img {
+    width: 40%;
+}
+
+.stjepan article {
+    position: relative;
+    left: 550px;
+    bottom: 280px;
+    width: 40%;
+}
+/* stjepan */
+
+/* slike */
+
+.slike{
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    top: 400px;
+}
+
+#vjencanja img, #part2 img, #krstenje img {
+    width: 29%;
+}
+
+#vjencanja, #part2, #krstenje {
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
+
+
+/* slike */
+
+/*recenzije*/
+    .recenzije {
+        position: fixed;
+        left: 1400px;
+        top: 150px;
+        width: 25%;
+        text-align: center;
+    }
+
+    .recenzije h2 {
+        margin-bottom: 20px;
+    }
+
+    #rec2, #rec3 {
+        border-top: 1px solid rgb(216, 147, 53);
+        padding-top: 20px;
+    }
+
+    h3 {
+        color: rgb(216, 147, 53);
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+/*recenzije*/
+
+/*footer*/
+footer {
+    max-width: 1200px;
+    width: 50%;
+    margin: auto;
+    background-color: #f5f0e9 ;
+    position: absolute;
+    top: 1900px;
+    left: 900px;
+}
+
+footer p {
+    color:rgb(216, 147, 53) ;
+    position: absolute;
+    padding: 10px;
+}
+/*footer*/

@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f0e9 ;
+    /* color: rgb(216, 147, 53); */
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: 100;
+}
+ 
+a {
+    color: rgb(216, 147, 53); 
+    text-decoration: none;
+    font-weight: 100;
+}
+
+h2 {
+    color: rgb(216, 147, 53);
+    font-weight: 100;
+}
+p {
+    line-height: 200%;
+}
+ /* header */
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f5f0e9 ;
+    color: rgb(216, 147, 53);
+    height: 70px;
+    border-bottom: 1px solid rgb(216, 147, 53);
+}
+
+header img {
+    width: 70px;
+    float: left;
+    margin-left: 110px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+.naslovnica, .o-nama, .kontakt {
+    float: left;
+    font-size: larger;
+    margin-top: 25px;
+    margin-left: 90px;
+    color: rgb(216, 147, 53);
+    
+}
+
+/*header*/
+
+
+
+/*footer*/
+footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: #f5f0e9 ;
+    clear: both;
+}
+
+footer p {
+    color:rgb(216, 147, 53) ;
+    text-align: center;
+    padding: 10px;
+}
+/*footer*/
+
+
+/* content */
+
+.content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f5f0e9;
+    
+}
+
+.info {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.info img.slika
+{
+    width: 25%;
+    float: left;
+    margin-left: 200px;
+}
+
+.tekst {
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.info p {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.info a {
+    float: left;
+    color: black;
+    line-height: 200%;
+    margin-top: 20px;
+}
+
+.info a:hover {
+    color: rgb(216, 147, 53);
+}
+
+#IiP {
+    font-size: 25px;
+}
+
+.info a#ig img {
+    width: 4%;
+    vertical-align: text-bottom;
+}
+
+.info a#loc img {
+    width: 4%;
+    vertical-align: text-bottom;
+}
+
+.info a#fb img {
+    width: 4%;
+    vertical-align: text-bottom;
+}
+
+.info a#mail img {
+    width: 4%;
+    vertical-align: text-bottom;
+    
+} 
+
+
+.forma {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.forma h2 {
+    text-align: center;
+}
+
+.forma input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(216, 147, 53);
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.forma input:focus {
+    outline: none;
+
+}
+
+.forma select {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(216, 147, 53);
+    padding: 10px 10px;
+    border-radius: 20px;
+    
+}
+
+.forma select:focus {
+    outline: none;
+}
+
+textarea {
+    font-family: inherit;
+    resize: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(216, 147, 53);
+    border-radius: 20px;
+    padding: 10px 10px;
+    
+}
+
+textarea:focus {
+    outline: none;
+    resize: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(216, 147, 53);
+    padding: 5px 10px;
+    font-family: inherit;
+}
+
+input#potvrda {
+    color: rgb(216, 147, 53);
+    background-color: #f5f0e9;
+    padding: 10px 40px;
+    margin-top: 13px;
+    float: right;
+}
+
+input#potvrda:hover {
+    background-color: rgb(216, 147, 53);
+    color: #f5f0e9;
+    cursor: pointer;
+}
+
+a#mailStudent:link {
+    color: black;
+}
+a#mailStudent:hover {
+    color: rgb(216, 147, 53);
+}
+
+input, textarea, #mailStudent, select {
+    float: left;
+    clear: both;
+}
+
+.formapt1, .formapt2 {
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+}
+
+.formapt1 {
+    margin-left: 200px;
+    margin-right: 10px;
+}
+
+#ime {
+    float: left;
+    clear: both;
+}
+
+#prezime, #email, #broj, #vrsta {
+    margin-top: 10px;
+    float: left;
+    clear: both;
+}
+
+#mailStudent {
+    float: right;
+    margin-top: 10px;   
+}
+
+#mailStudent img {
+    width: 9%;
+    vertical-align: text-bottom;
+}
+
+
+@media (max-width: 500px) {
+
+    header {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+       
+    }
+    
+    header img {
+        margin-left: 30px;
+    }
+    
+    header h1 {
+       display: none;
+    }
+    
+    .naslovnica, .o-nama, .kontakt {
+        margin-left: 40px;    
+    }
+
+    .content {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .info {
+        clear: both;
+        float: left;
+        width: 100%;
+        margin: auto;
+        max-width: 500px;
+        margin-top: 50px;
+    }
+    
+    .info img.slika
+    {
+        width: 50%;
+        margin-left: 120px;
+    }
+    
+    .tekst {
+        width: 100%;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+
+    .forma {
+        clear: both;
+        float: left;
+        margin: auto;
+        width: 100%;
+        max-width: 500px;
+        margin-top: 50px;
+    }    
+    
+    input#potvrda {
+        float: left;
+    }
+    
+    .formapt1 {
+        margin-top: 50px;
+        margin-left: 100px;
+        float: left;
+        width: 70%;
+    }
+
+    .formapt2 {
+        margin-top: 10px;
+        margin-left: 100px;
+        float: left;
+        width: 70%;
+    }
+    
+    #mailStudent {
+        float: left;
+        margin-top: 10px;   
+    }
+
+    #mailStudent img {
+        width: 6%;
+        vertical-align: text-bottom;
+    }
+
+
+}
