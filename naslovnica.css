@@ -337,35 +337,7 @@ nav a {
 
 /* ostalo */
 
-/* tablica */
 
-table {
-    width: 100%;
-    margin: 50px 0px;
-}
-
-table, td, th {
-    border: 1px solid rgb(216, 147, 53);
-    border-collapse: collapse;
-    
-}
-
-table td.cjenik {
-    text-align: center;
-    height: 30px;
-    padding: 10px;
-}
-
-table td {
-    width: 240px;    
-    text-align: center;
-}
-
-table td.prvi,  td.drugi, td.treci, td.cetvrti {
-    height: 50px;
-}
-
-/* tablica */
 
 /* content */
 
