@@ -288,7 +288,8 @@ input, textarea, #mailStudent, select {
     }
     
     .naslovnica, .o-nama, .kontakt {
-        margin-left: 25px;    
+        margin-left: 25px;
+        font-size: 15px;    
     }
 
     .content {
