@@ -1,3 +1,5 @@
+-2. DIO PROJEKTA JE JOŠ U IZRADI-
+
 # Stjepan-Rajic-Photography
 
 
