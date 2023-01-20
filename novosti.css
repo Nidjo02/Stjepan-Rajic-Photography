@@ -1,0 +1,277 @@
+/* opcenito */
+
+body, #objave {
+    background-color: #f5f0e9 ;
+}
+
+h1, h2, h3, h4, h6{
+    font-family: 'Yeseva One', cursive;
+}
+
+h5, #kategorije h6, p, a, span, button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* navigacija */
+.container-fluid {
+    background-color: rgb(216, 147, 53); 
+}
+
+
+nav {
+    margin-top: 10px !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #f5f0e9 ;
+}
+
+figure h1 {
+    font-size: 40px;
+    display: inline-block;
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f5f0e9 ;
+    padding: 10px 20px;
+        
+}
+
+nav a:hover {
+    background-color: #f5f0e9 ;
+    color: rgb(216, 147, 53);
+    transition: background-color linear 0.75s;
+    border-radius: 10px;
+}
+
+nav i {
+    font-size: 20px;
+}
+
+
+/* banner */
+
+.banner {
+    background-image: url('images/zaNovosti/banner.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    
+}
+
+.banner h1 {
+    font-style: italic;
+    text-align: center;
+    padding-top: 34%;
+    padding-bottom: 5%;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 120px;
+
+}
+
+
+/* kategorije */
+
+#kategorije {
+    margin-left: 1%;
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#kategorije ul {
+    
+    list-style-type: none;
+    text-align: left;
+}
+
+#kategorije li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#kategorije li a:hover {
+    color: rgb(216, 147, 53);
+}
+
+#kategorije h6{
+    text-align: center;
+    background-color: rgb(216, 147, 53);
+    color: #f5f0e9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+/* objave */
+
+#objave div div {
+    margin-top: 30px;
+    
+}
+
+#objave div div:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    transition: box-shadow linear 0.2s;
+    cursor: pointer;
+}
+
+#objave h5 {
+    font-weight: bold;
+}
+
+#objave figcaption p{
+    width: 100%;
+    text-align: justify;
+}
+
+figure {
+    padding-top: 12px;
+}
+
+figure img {
+    border-radius: 20px;
+}
+
+
+
+/* linkovi */
+
+
+
+.linkovi a {
+    text-decoration: none;
+    color: rgb(216, 147, 53);
+    border: 1px solid rgb(216, 147, 53);
+    padding: 5px 10px;
+    border-radius: 20px;
+    
+}
+
+.linkovi a:hover {
+    color: #f5f0e9;
+    background-color: rgb(216, 147, 53);
+    transition: background-color linear 0.75s;
+}
+
+
+
+.prviL{
+    float: left;
+    font-size: 10px;
+}
+
+.drugiL{
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+
+footer p {
+    font-size: 18px;
+    color: #f5f0e9;
+    text-align: center;
+    padding: 15px 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+@media (max-width:576px){
+    nav {
+        padding: 0 !important;
+    }
+
+    nav li {
+        float: none;
+        
+    }
+    nav a{
+        padding: 15px 165px;
+        text-align: center;
+    }
+
+    nav i {
+        font-size: 30px;
+    }
+    
+
+    figure h1 {
+        display: none;
+    }
+
+    figure img {
+        height: 120px;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    
+}
+
+@media (min-width:576px) and (max-width:992px){
+    nav {
+        padding: 0 !important;
+        
+    }
+
+    nav li {
+        float: none;
+        
+    }
+    nav a{
+        padding: 15px 210px;
+        text-align: center;
+    }
+
+    figure {
+        align-items: center;
+    }
+    figure h1 {
+        font-size: 25px;
+    }
+
+    .banner h1 {
+        font-size: 60px;
+    }
+}

@@ -7,10 +7,18 @@ body {
     background-color: #f5f0e9 ;
     /* color: rgb(216, 147, 53); */
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
     font-weight: 100;
 }
- 
+
+h1, h3, h4, h6{
+    font-family: 'Yeseva One', cursive;
+}
+
+ p, h2,a, span, button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 a {
     color: rgb(216, 147, 53); 
     text-decoration: none;
@@ -24,42 +32,155 @@ h2 {
 p {
     line-height: 200%;
 }
- /* header */
+/* navigacija */
+.container-fluid {
+    background-color: rgb(216, 147, 53); 
+}
+
+
+nav {
+    margin-top: 10px !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header figure {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #f5f0e9 ;
+}
+
+figure h1 {
+    font-size: 40px;
+    display: inline-block;
+    font-style: italic;
+}
 
 header {
+    text-align: center;
+    max-width: 1300px;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
+}
+
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f5f0e9 ;
+    padding: 10px 20px;
+        
+}
+
+nav a:hover {
     background-color: #f5f0e9 ;
     color: rgb(216, 147, 53);
-    height: 70px;
-    border-bottom: 1px solid rgb(216, 147, 53);
+    transition: background-color linear 0.75s;
+    border-radius: 10px;
 }
 
-header img {
-    width: 70px;
-    float: left;
-    margin-left: 110px;
+nav i {
+    font-size: 20px;
 }
 
-header h1 {
-    float: left;
-    margin-top: 15px;
-    margin-left: 30px;
-    font-weight: 100;
-}
+@media (max-width:576px){
+    nav {
+        padding: 0 !important;
+    }
 
+    nav li {
+        float: none;
+        
+    }
+    nav a{
+        padding: 15px 165px;
+        text-align: center;
+    }
 
-.naslovnica, .o-nama, .kontakt {
-    float: left;
-    font-size: larger;
-    margin-top: 25px;
-    margin-left: 90px;
-    color: rgb(216, 147, 53);
+    nav i {
+        font-size: 30px;
+    }
     
+
+    figure h1 {
+        display: none;
+    }
+
+    figure img {
+        height: 120px;
+    }
+
+}
+   
+
+
+
+@media (min-width:576px) and (max-width:992px){
+    nav {
+        padding: 0 !important;
+        
+    }
+
+    nav li {
+        float: none;
+        
+    }
+    nav a{
+        padding: 15px 210px;
+        text-align: center;
+    }
+
+    figure {
+        align-items: center;
+    }
+    figure h1 {
+        font-size: 25px;
+    }
+
 }
 
-/* header */
+/* podlinkovi */
+
+#podlinkovi {
+    margin-left: 130px;
+}
+
+#podlinkovi a {
+    color: rgb(216, 147, 53);
+    padding: 20px 45px;
+}
+
+#podlinkovi a:hover {
+    background-color: rgb(216, 147, 53);
+    color: #f5f0e9;
+    padding: 20px 45px;
+    transition: background-color linear 0.75s;
+    border-radius: 10px;
+}
+
+div ul#podlinkovi {
+    list-style-type: none;
+    
+    padding: 0;
+}
+
+#podlinkovi li {
+    margin-top: 10px;
+    display: inline-block;
+}
 
 /* content */
 
@@ -70,23 +191,7 @@ header h1 {
     
 }
 
-/* nav */
 
-nav {
-    width: 100%;
-    color: rgb(216, 147, 53);
-}
-
-nav a, nav p {
-    display: inline-block;
-    margin-top: 5px;
-}
-nav a {
-    margin-left: 59px;
-    margin-right: 59px;
-}
-
-/* nav */
 
 /* portret */
 
@@ -337,7 +442,35 @@ nav a {
 
 /* ostalo */
 
+/* tablica */
 
+table {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+table, td, th {
+    border: 1px solid rgb(216, 147, 53);
+    border-collapse: collapse;
+    
+}
+
+table td.cjenik {
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+
+table td {
+    width: 240px;    
+    text-align: center;
+}
+
+table td.prvi,  td.drugi, td.treci, td.cetvrti {
+    height: 50px;
+}
+
+/* tablica */
 
 /* content */
 
@@ -345,20 +478,23 @@ nav a {
 
 /*footer*/
 footer {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto;
-    background-color: #f5f0e9 ;
-    clear: both;
+    background-color: rgb(216, 147, 53);
+    margin: 0;
+    text-align: center;
+    color: #f5f0e9;
 }
 
 footer p {
-    color:rgb(216, 147, 53) ;
-    text-align: center;
-    padding: 10px;
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 18px;
 }
 /*footer*/
 
 .clear {
     clear: both;
 }
+
+
+
+
